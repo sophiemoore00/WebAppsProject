@@ -1,0 +1,33 @@
+<DOCTYPE html>
+<head>
+    <title>Register</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <script src="javascript/RegisterSubmit.js" type="text/javascript"></script>
+    <script src="javascript/LoginSubmit.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container"> 
+    <img id="logoBanner" src="images/diet.jpg" alt="Banner image">
+    <h1 id="h1Banner">Sign Up</h1>
+    <form id="registerForm">
+        <p class="textTitle">Email:</p>
+            <input class="textInput" id="emailInput" type="text" name="email"><br>
+        <p class="textTitle">Password:</p>
+            <input class="textInput" id="password" type="password" name="password"><br>
+        <p>I have read and agree to the <a href="#">Terms and conditions</a></p>
+            <input class="check" id="checkTerms" type="checkbox" name="terms"><br>
+        <button type="button" onclick="checkRegister()">Register Now</button>
+    </form>
+    <!--loginForm will only be shown once the Register form has been completed-->
+    <form id="loginForm">
+        <p class="textTitle">Email:</p>
+            <input class="textInput" id="emailInput" type="text" email=""><br>
+        <p class="textTitle">Password:</p>
+            <input class="textInput" id="password" type="password" password=""><br>
+        <button type="button" onclick="checkLogin()">Log in</button>
+    </form>
+</div><!--end of container div-->
+</body>
+</html>

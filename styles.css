@@ -1,0 +1,146 @@
+body{
+	background-image: url("fruit.png");
+	background-color: #c7dcff;
+	
+}
+
+
+#wrapper{
+	background-color:#FFFDD0;
+	height:2000px;
+	width: 70%;
+	margin: auto;
+	clear:both;
+	min-height:100%;
+}
+
+
+form {
+	background-color: #dee0e3;
+	padding-left: 10%;
+	border: 2px solid black;
+	height:580px;
+	width: 40%;
+	margin: auto;
+}
+
+#profileInfo{
+	  font-weight: bold;
+	  text-decoration: underline;
+	   
+	 }
+
+#nametext{
+	margin-bottom: 20px;
+}
+
+#select1,#select2,#select3,#select4,#goalbox{
+	margin-bottom:20px;
+}
+
+
+
+
+#header1 {
+	text-align: center;
+	color: black;
+	
+	
+}
+
+#document{
+	text-align:center;
+}
+
+#bfast{
+	border: 1px solid black;
+	background-color: #e4f7e5;
+	padding-left: 20px;
+	text-align: center;
+	height: 250px;
+	width: 50%;
+	font-size: 50%;
+	margin: auto;
+	margin-bottom:10px;
+	
+	
+}
+
+p {
+	margin-top: 10px;
+}
+
+#bfastbutton {
+	margin-top:10px;
+}
+
+#lunch{
+	border: 1px solid black;
+	background-color: #e4f7e5;
+	padding-left: 20px;
+	text-align: center;
+	height: 250px;
+	width: 50%;
+	font-size: 50%;
+	margin: auto;
+
+	
+}
+
+p {
+	margin-top: 10px;
+}
+
+#lunchbutton {
+	margin-top:10px;
+}
+
+
+#dinner{
+	border: 1px solid black;
+	background-color: #e4f7e5;
+	padding-left: 20px;
+	text-align: center;
+	height: 250px;
+	width: 50%;
+	font-size: 50%;
+	margin: auto;
+	
+	
+}
+p {
+	margin-top: 10px;
+}
+
+#dinnerbutton {
+	margin-top:10px;
+}
+
+
+
+button {
+	border: 2px solid black;
+	width: 70px;
+	height: 40px;
+}
+
+#mealplan {
+	border: ;
+	background-color: #95bda0;
+	height: 200px;
+	width: 80%;
+	margin: auto;
+	margin-top:10px;
+
+}
+
+h5{
+	background-color: white;
+	text-align:center;
+}
+
+p {
+	padding-left: 10px;
+	
+	
+}

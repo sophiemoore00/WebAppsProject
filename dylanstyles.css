@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color:grey;
+    height:960px;
+    width:100%;
+}
+#container{
+    width:70%;
+    height:90%;
+    margin:15%;
+    margin-top:1.5%;
+    background-color: coral;
+    border-radius: 5%;
+}
+
+#logoBanner{
+    
+    width:450px;
+    height:240px;
+    padding-top:2%;
+    padding-left:35%;
+}
+
+#container h1{
+    padding-top:1.5%;
+    padding-left:44%;
+    font-size: 3rem;
+}
+#registerForm{
+    display:block;
+    border:3px solid white;
+    border-radius: 5px;
+    margin-left:38%;
+    margin-top:2%;
+    width:30%;
+    height:40%;
+}
+#registerForm input{
+    margin:3%;
+   
+}
+#registerForm .textInput{
+    width:40%;
+    height:10%;
+    border-radius: 8px;
+    
+}
+#container #registerForm #emailInput{
+    margin-left:14%;
+   
+}
+#registerForm p{
+    padding-left:1%;
+    display:inline;
+}
+#registerForm .textTitle{
+    padding-left:5%;
+    font-size:1.8rem;
+}
+
+#registerForm .check{
+    margin-top:5%;
+}
+
+#registerForm button{
+    margin-top:15%;
+    margin-left:25%;
+    width:50%;
+    height:25%;
+    border-radius:8px;
+    font-size: 1.5em;
+    background-color:#66ff66;
+}
+
+
+
+#loginForm{
+    display:none;
+}
+#loginForm{
+    border:3px solid white;
+    border-radius: 5px;
+    margin-left:38%;
+    margin-top:2%;
+    width:30%;
+    height:40%;
+}
+#loginForm input{
+    margin:3%;
+    margin-top: 4%;
+}
+#loginForm .textInput{
+    width:40%;
+    height:10%;
+    border-radius: 8px;
+    
+}
+#container #loginForm #emailInput{
+    margin-left:14%;
+   
+}
+#loginForm p{
+    padding-left:1%;
+    display:inline;
+}
+#loginForm .textTitle{
+    padding-left:5%;
+    font-size:1.8rem;
+}
+#loginForm button{
+    margin-top:15%;
+    margin-left:25%;
+    width:50%;
+    height:25%;
+    border-radius:8px;
+    font-size: 1.5em;
+    background-color:#66ff66;
+}
